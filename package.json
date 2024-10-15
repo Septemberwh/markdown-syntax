@@ -12,6 +12,7 @@
   ],
   "keywords": [
     "markdown",
+    "md",
     "syntax",
     "example"
   ],
@@ -20,11 +21,22 @@
   "contributes": {
     "commands": [
       {
-        "command": "markdown-syntax.helloWorld",
-        "title": "Hello World"
+        "command": "markdown-syntax.openMarkdown",
+        "title": "打开 Markdown 语法示例",
+        "category": "Markdown syntax"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "resourceExtname == .md",
+          "command": "markdown-syntax.openMarkdown",
+          "group": "navigation"
+        }
+      ]
+    }
   },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/Septemberwh/markdown-syntax"

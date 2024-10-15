@@ -19,6 +19,13 @@ Markdown 语法示例
 
 用于快速查看 Markdown 语法示例。
 
+> 建议安装 Markdown 预览插件：[Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+
+## 使用方法
+
+- 打开任意 `.md` 文件，右键鼠标即可看到菜单 `打开 Markdown 语法示例`
+- 按下 CMD + Shift + P（Mac）或 CTRL + Shift + P（Windows/Linux），输入并选择 `Markdown syntax：打开 Markdown 语法示例`
+
 ## 联系作者
 
 如果有问题,请联系 septwong@foxmail.com
