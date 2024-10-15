@@ -20,7 +20,7 @@ Markdown 语法示例
 用于快速查看 Markdown 语法示例。
 
 - 预览 [Github Markdown](https://github.com/Septemberwh/markdown-syntax/blob/master/markdown.md)
-- 预览 [Local Markdown](./markdown.md)
+<!-- - 预览 [Local Markdown](./markdown.md) -->
 
 > 建议安装 Markdown 预览插件：[Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 

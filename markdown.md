@@ -1,7 +1,5 @@
 # Markdown 语法
 
-[导航](./readme.md)
-
 ---
 
 > GitHub Flavored Markdown, 简称 [GFW](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)。  

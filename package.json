@@ -2,7 +2,7 @@
   "name": "markdown-syntax",
   "displayName": "markdown-syntax",
   "description": "Example of markdown syntax",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "SeptWong",
   "engines": {
     "vscode": "^1.94.0"
@@ -21,7 +21,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "markdown-syntax.openMarkdown",
+        "command": "markdown-syntax.openMarkdownWithSidePreview",
         "title": "打开 Markdown 语法示例",
         "category": "Markdown syntax"
       }
@@ -30,7 +30,7 @@
       "editor/context": [
         {
           "when": "resourceExtname == .md",
-          "command": "markdown-syntax.openMarkdown",
+          "command": "markdown-syntax.openMarkdownWithSidePreview",
           "group": "navigation"
         }
       ]

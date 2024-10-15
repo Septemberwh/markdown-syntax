@@ -11,25 +11,23 @@ export function activate(context: vscode.ExtensionContext) {
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "markdown-syntax" is now active!');
 
-	// const openMarkdownSyntax = vscode.commands.registerCommand('markdown.syntax', () => {
-	// 	console.log(path.join(__dirname, 'markdown.md'));
-	// 	vscode.workspace.openTextDocument(path.join(__dirname, 'markdown.md')).then(doc => {
-	// 		vscode.window.showTextDocument(doc);
-	// 	});
-	// });
-
-	// 注册命令 "markdown-syntax.openMarkdown"
-	const disposable = vscode.commands.registerCommand('markdown-syntax.openMarkdown', async () => {
+	// 注册命令 "markdown-syntax.openMarkdownWithSidePreview"
+	const disposable = vscode.commands.registerCommand('markdown-syntax.openMarkdownWithSidePreview', async () => {
 		try {
 			// 获取 markdown.md 文件的绝对路径
 			const markdownPath = path.join(context.extensionPath, 'markdown.md');
-			await vscode.workspace.openTextDocument(markdownPath).then(doc => {
-				vscode.window.showTextDocument(doc);
+			// 打开 markdown 文件
+			const doc = await vscode.workspace.openTextDocument(markdownPath);
+			// 在编辑器中显示文件
+			await vscode.window.showTextDocument(doc, {
+				viewColumn: vscode.ViewColumn.Active, // 在当前活动窗口中打开新 Tab
+				preserveFocus: true // 保持焦点在之前的文件上
 			});
-			// // 打开 markdown 文件
-			// const doc = await vscode.workspace.openTextDocument(markdownPath);
-			// // 在编辑器中显示文件
-			// await vscode.window.showTextDocument(doc);
+			// 打开 markdown.md 的预览，在右侧拆分窗口中显示
+			await vscode.commands.executeCommand(
+				'markdown.showPreviewToSide',
+				doc.uri
+			);
 		} catch (error) {
 			vscode.window.showErrorMessage('无法打开 Markdown 文件: ' + (error as Error).message);
 		}
