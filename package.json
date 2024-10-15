@@ -3,11 +3,17 @@
   "displayName": "markdown-syntax",
   "description": "Example of markdown syntax",
   "version": "0.0.1",
+  "publisher": "SeptWong",
   "engines": {
     "vscode": "^1.94.0"
   },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "markdown",
+    "syntax",
+    "example"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
@@ -19,6 +25,15 @@
       }
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Septemberwh/markdown-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/Septemberwh/markdown-syntax/issues"
+  },
+  "icon": "assets/images/logo.png",
+  "license": "MIT License",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",

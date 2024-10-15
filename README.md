@@ -1,71 +1,26 @@
-# markdown-syntax README
+<img align="right" width="90px" src="assets/images/logo.png" alt="markdown-syntax logo" />
 
-This is the README for your extension "markdown-syntax". After writing up a brief description, we recommend including the following sections.
+# markdown-syntax
 
-## Features
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/septwong.markdown-syntax?color=brightgreen&label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=septwong.markdown-syntax)
+![Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/septwong.markdown-syntax)&nbsp;
+![Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/septwong.markdown-syntax)&nbsp;
+![Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/septwong.markdown-syntax)&nbsp;
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/Septemberwh/markdown-syntax/main/LICENSE)&nbsp;
+<a href="https://github.com/Septemberwh/markdown-syntax">
+    <img alt="markdown-syntax Repo stars" src="https://img.shields.io/github/stars/Septemberwh/markdown-syntax">
+</a>
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+> Example of markdown syntax
 
-For example if there is an image subfolder under your extension project workspace:
+Markdown 语法示例
 
-\!\[feature X\]\(images/feature-x.png\)
+## 概述
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+用于快速查看 Markdown 语法示例。
 
-## Requirements
+## 联系作者
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+如果有问题,请联系 septwong@foxmail.com
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**🎉 Enjoy!**
