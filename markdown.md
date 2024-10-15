@@ -509,13 +509,13 @@ https://img.shields.io/badge/{左半部分标签}-{右半部分标签}-{右半�
 ```
 
 ![Author](https://img.shields.io/badge/Author-Septemberwh-blue.svg)
-[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/septwong.tdesign-miniprogram-snippets?color=brightgreen&label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=septwong.tdesign-miniprogram-snippets)
-![Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/septwong.tdesign-miniprogram-snippets)&nbsp;
-![Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/septwong.tdesign-miniprogram-snippets)&nbsp;
-![Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/septwong.tdesign-miniprogram-snippets)&nbsp;
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/Septemberwh/tdesign-miniprogram-snippets/main/LICENSE)&nbsp;
-<a href="https://github.com/Septemberwh/tdesign-miniprogram-snippets">
-    <img alt="tdesign-miniprogram-snippets Repo stars" src="https://img.shields.io/github/stars/Septemberwh/tdesign-miniprogram-snippets">
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/septwong.markdown-syntax?color=brightgreen&label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=septwong.markdown-syntax)
+![Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/septwong.markdown-syntax)&nbsp;
+![Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/septwong.markdown-syntax)&nbsp;
+![Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/septwong.markdown-syntax)&nbsp;
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/Septemberwh/markdown-syntax/main/LICENSE)&nbsp;
+<a href="https://github.com/Septemberwh/markdown-syntax">
+    <img alt="markdown-syntax Repo stars" src="https://img.shields.io/github/stars/Septemberwh/markdown-syntax">
 </a>
 
 其次有些第三方平台也提供方便的徽章，比如 [gitter.im](https://gitter.im)：
@@ -527,12 +527,12 @@ https://img.shields.io/badge/{左半部分标签}-{右半部分标签}-{右半�
 star历史可以使用这个网站 [star-history.com](https://star-history.com/) or [github star-history](https://github.com/star-history/star-history)
 
 ```markdown
-Septemberwh/tdesign-miniprogram-snippets -- github账号/项目名称
+Septemberwh/markdown-syntax -- github账号/项目名称
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Septemberwh/tdesign-miniprogram-snippets&type=Date)](https://star-history.com/#Septemberwh/tdesign-miniprogram-snippets&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Septemberwh/markdown-syntax&type=Date)](https://star-history.com/#Septemberwh/markdown-syntax&Date)
 ```
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Septemberwh/tdesign-miniprogram-snippets&type=Date)](https://star-history.com/#Septemberwh/tdesign-miniprogram-snippets&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Septemberwh/markdown-syntax&type=Date)](https://star-history.com/#Septemberwh/markdown-syntax&Date)
 
 ---
 

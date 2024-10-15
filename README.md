@@ -19,12 +19,21 @@ Markdown 语法示例
 
 用于快速查看 Markdown 语法示例。
 
+- 预览 [Github Markdown](https://github.com/Septemberwh/markdown-syntax/blob/master/markdown.md)
+- 预览 [Local Markdown](./markdown.md)
+
 > 建议安装 Markdown 预览插件：[Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
 ## 使用方法
 
 - 打开任意 `.md` 文件，右键鼠标即可看到菜单 `打开 Markdown 语法示例`
-- 按下 CMD + Shift + P（Mac）或 CTRL + Shift + P（Windows/Linux），输入并选择 `Markdown syntax：打开 Markdown 语法示例`
+- 按下 `CMD + Shift + P`（Mac）或 `CTRL + Shift + P`（Windows/Linux），输入并选择 `Markdown syntax：打开 Markdown 语法示例`
+
+### 示例
+
+![右键菜单](./assets/images/example1.png)
+
+![指令输入](./assets/images/example2.png)
 
 ## 联系作者
 
