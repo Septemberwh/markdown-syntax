@@ -2,7 +2,7 @@
   "name": "markdown-syntax",
   "displayName": "markdown-syntax",
   "description": "Example of markdown syntax",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "SeptWong",
   "engines": {
     "vscode": "^1.94.0"
