@@ -1,4 +1,4 @@
-<img align="right" width="90px" src="https://s2.loli.net/2024/10/16/tQExOHopX5KZc4l.png" alt="markdown-syntax logo" />
+<img align="right" width="90px" src="https://free2.yunpng.top/2024/10/16/670f457bc5f7a.png" alt="markdown-syntax logo" />
 
 # markdown-syntax
 
@@ -31,9 +31,9 @@ Markdown 语法示例
 
 ### 示例
 
-![右键菜单](https://s2.loli.net/2024/10/16/nlCVPpKIife1OzG.png)
+![右键菜单](https://free2.yunpng.top/2024/10/16/670f455078df5.png)
 
-![指令输入](https://s2.loli.net/2024/10/16/Yr1NlopueA6WtB7.png)
+![指令输入](https://free2.yunpng.top/2024/10/16/670f455076a40.png)
 
 ## 联系作者
 
