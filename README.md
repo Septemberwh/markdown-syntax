@@ -1,6 +1,6 @@
 <img align="right" width="90px" src="https://free2.yunpng.top/2024/10/16/670f457bc5f7a.png" alt="markdown-syntax logo" />
 
-# markdown-syntax
+# Markdown Syntax
 
 [![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/septwong.markdown-syntax?color=brightgreen&label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=septwong.markdown-syntax)
 ![Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/septwong.markdown-syntax)&nbsp;

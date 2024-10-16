@@ -1,6 +1,6 @@
 {
   "name": "markdown-syntax",
-  "displayName": "markdown-syntax",
+  "displayName": "Markdown Syntax",
   "description": "Example of markdown syntax",
   "version": "0.0.4",
   "publisher": "SeptWong",
@@ -45,7 +45,7 @@
     "url": "https://github.com/Septemberwh/markdown-syntax/issues"
   },
   "icon": "assets/images/logo.png",
-  "license": "MIT License",
+  "license": "MIT",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
