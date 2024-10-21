@@ -29,7 +29,7 @@ export function activate(context: vscode.ExtensionContext) {
 				doc.uri
 			);
 		} catch (error) {
-			vscode.window.showErrorMessage('Unable to open Markdown file: ' + (error as Error).message);
+			vscode.window.showErrorMessage('无法打开 Markdown 文件: ' + (error as Error).message);
 		}
 	});
 
