@@ -12,9 +12,9 @@
   ],
   "keywords": [
     "markdown",
-    "md",
     "syntax",
-    "example"
+    "example",
+    "md"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
@@ -22,7 +22,7 @@
     "commands": [
       {
         "command": "markdown-syntax.openMarkdownWithSidePreview",
-        "title": "打开 Markdown 语法示例",
+        "title": "Open Markdown Syntax Example",
         "category": "Markdown syntax"
       }
     ],
