@@ -3,7 +3,7 @@
 ---
 
 > GitHub Flavored Markdown: [GFW](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)。  
-> Markdown Preview Enhanced: [MPE](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)。
+> Markdown Preview Enhanced: [MPE](https://shd101wyy.github.io/markdown-preview-enhanced/#/)。
 
 ---
 
@@ -39,13 +39,13 @@ The title has 2 classes {.class1 .class2} [test.md#2](./test.md#2)
 
 ---
 
-## 字体
+## Styling text
 
-|#|语法|效果|
-|---|----|:---:|
-|1|`*italic 1*`|*italic 1*|
+|#|Example|Output|Keyboard shortcut|
+|---|----|:---:|:---|
+|1|`*italic 1*`|*italic 1*|`Command`+`I` (Mac) or `Ctrl`+`I` (Windows/Linux)|
 |2|`_italic 2_`|*italic 2*|
-|3|`**bold 1**`|**bold 1**|
+|3|`**bold 1**`|**bold 1**|`Command`+`B` (Mac) or `Ctrl`+`B` (Windows/Linux)|
 |4|`__bold 2__`|**bold 2**|
 |5|`***italic bold 1***`|***italic bold 1***|
 |6|`___italic bold 2___`|***italic bold 2***|
@@ -65,17 +65,32 @@ The title has 2 classes {.class1 .class2} [test.md#2](./test.md#2)
 
 ---
 
-## 引用
+## Quoting text
 
 ```markdown
-> 这是引用的内容
->> 这是引用的内容
->>>>>>>>>> 这是引用的内容
+> Text that is not a quote
+>> Text that is not a quote
+>>>>>>>>>> Text that is not a quote
 ```
 
-> 这是引用的内容
->> 这是引用的内容
->>>>>>>>>> 这是引用的内容
+> Text that is not a quote
+>> Text that is not a quote
+>>>>>>>>>> Text that is not a quote
+
+## Supported color models
+
+```markdown
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+```
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
+|Color|Example|
+|----|:---:|
+|HEX|`#0969DA`|
+|RGB|`rgb(9, 105, 218)`|
+|HSL|`hsl(212, 92%, 45%)`|
+
 
 ## 分割线
 
@@ -89,7 +104,7 @@ ___ 下划线
 
 ---
 
-## 图片
+## Images
 
 ```markdown
 ![图片alt](图片地址 ''图片title'')
@@ -119,7 +134,7 @@ ___ 下划线
 
 ---
 
-## 超链接
+## Links
 
 ```markdown
 [超链接名](超链接地址 "超链接title")
@@ -138,7 +153,7 @@ title可加可不加
 
 ---
 
-## 列表
+## Lists
 
 `无序列表`： - + * 任何一种都可以
 
@@ -184,7 +199,7 @@ title可加可不加
 
 ---
 
-## 表格
+## Tables
 
 连字符的左侧，右侧或两侧添加冒号（:），将列中的文本对齐到左侧，右侧或中心。
 
@@ -223,7 +238,7 @@ title可加可不加
 
 ---
 
-## 代码
+## Quoting code
 
 `单行代码`：代码之间分别用一个反引号包起来
 
@@ -285,7 +300,7 @@ function add(x, y) {
 
 ---
 
-## 锚点
+## Custom anchors
 
 其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们
 
@@ -298,19 +313,19 @@ function add(x, y) {
 
 ---
 
-## 标题编号 (MPE)
+## Title Number (MPE)
 
 ```markdown
 ### My Great Heading {#customId}
 ```
 
-### 标题编号示例 {#10}
+### Heading Number Example {#10}
 
-跳转其他文件示例 [test.md#1](./test.md#1)
+Jump to other files example [test.md#1](./test.md#1)
 
 ---
 
-## diff高亮
+## Diff Highlight
 
 `+`: 添加  
 `-`: 删除  
@@ -326,7 +341,7 @@ function add(x, y) {
 
 ---
 
-## 任务列表
+## Task lists
 
 - [ ] 待完成
 - [x] 已完成
@@ -334,7 +349,7 @@ function add(x, y) {
 
 ---
 
-## 折叠内容
+## Folding content
 
 <details>
 <summary>菜单</summary>
@@ -355,7 +370,7 @@ python train.py --actor-model facebook/opt-66b --reward-model facebook/opt-350m 
 
 ---
 
-## 脚注
+## Footnotes
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
@@ -371,15 +386,18 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 ---
 
-## Emoji 表情
+## Emoji
 
-去露营了！ :tent: 很快回来。
+```markdown
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+```
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
-真好笑！ :joy:
+> For a full list of available emoji and codes, see [the Emoji-Cheat-Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
 
 ---
 
-## 网址和电子邮件地址
+## Website and email address
 
 - 未使用方括号，您的Markdown处理器也会自动将其转换为链接。
 - 要将URL或电子邮件地址快速转换为链接，请将其括在尖括号中。
@@ -394,7 +412,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 ---
 
-## 定义列表 (MPE)
+## Definition List (MPE)
 
 First Term
 : This is the definition of the first term.
@@ -405,7 +423,7 @@ Second Term
 
 ---
 
-## 图像
+## Flow Chart
 
 ### Mermaid
 
@@ -424,7 +442,7 @@ graph TD;
 
 ---
 
-## 缩略 (MPE)
+## Abbreviation (MPE)
 
 ```text
 *[HTML]: Hyper Text Markup Language  
@@ -440,7 +458,7 @@ is maintained by the W3C.
 
 ---
 
-## 警报 (GFM)
+## Alerts (GFM)
 
 ```markdown
 > [!NOTE]
@@ -476,9 +494,9 @@ is maintained by the W3C.
 
 ---
 
-## 隐藏有评论的内容
+## Hiding content with comments
 
-您可以通过在 HTML 评论中加入内容来指示 GitHub 隐藏渲染的 Markdown 中的内容。
+You can tell GitHub to hide content from the rendered Markdown by placing the content in an HTML comment.
 
 ```markdown
 <!-- This content will not appear in the rendered Markdown -->
@@ -486,9 +504,9 @@ is maintained by the W3C.
 
 ---
 
-## 忽略 Markdown 格式
+## Ignoring Markdown formatting
 
-通过在 Markdown 字符前面输入 \，可指示 GitHub 忽略 Markdown 格式（或对其进行转义）。
+You can tell GitHub to ignore (or escape) Markdown formatting by using \ before the Markdown character.
 
 ```markdown
 Let's rename \*our-new-project\* to \*our-old-project\*.
@@ -498,7 +516,7 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 ---
 
-## 徽章
+## Badge
 
 绘制徽章，首选就是 [shields.io](https://shields.io/)  具体语法去官网探索。
 
@@ -520,7 +538,7 @@ https://img.shields.io/badge/{左半部分标签}-{右半部分标签}-{右半�
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://badges.gitter.im/guodongxiaren/README.svg)](https://gitter.im/guodongxiaren/README?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## star历史
+## Star History
 
 star历史可以使用这个网站 [star-history.com](https://star-history.com/) or [github star-history](https://github.com/star-history/star-history)
 
