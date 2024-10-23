@@ -11,7 +11,9 @@ export class I18n {
     this.locale = vscode.env.language;
     this.loadLocaleBundle();
   }
-
+  public getLocale(): string {
+    return this.locale;
+  }
   public static getInstance(): I18n {
     if (!I18n.instance) {
       I18n.instance = new I18n();

@@ -1,41 +1,41 @@
-# Markdown 语法
+# Markdown Syntax
 
 ---
 
-> GitHub Flavored Markdown, 简称 [GFW](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)。  
-> Markdown Preview Enhanced, 简称 [MPE](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)。
+> GitHub Flavored Markdown: [GFW](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)。  
+> Markdown Preview Enhanced: [MPE](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)。
 
 ---
 
-## 标题
+## Headings
 
 ```markdown
-# 这是一级标题
-## 这是二级标题
-### 这是三级标题
-#### 这是四级标题
-##### 这是五级标题
-###### 这是六级标题
+# A first-level heading
+## A second-level heading
+### A third-level heading
+#### A four-level heading
+##### A fifth-level heading
+###### A six-level heading
 ```
 
-# 这是一级标题
+# A first-level heading
 
-## 这是二级标题
+## A second-level heading
 
-### 这是三级标题
+### A third-level heading
 
-#### 这是四级标题
+#### A four-level heading
 
-##### 这是五级标题
+##### A fifth-level heading
 
-###### 这是六级标题
+###### A six-level heading
 
 ```markdown
-自定义标题样式 (MPE)：
-### 这个标题有 2 个 classes {.class1 .class2}
+Customize title style (MPE)：
+### This title has 2 classes {.class1 .class2}
 ```
 
-标题有 2 个 classes {.class1 .class2} [test.md#2](./test.md#2)
+The title has 2 classes {.class1 .class2} [test.md#2](./test.md#2)
 
 ---
 
@@ -43,25 +43,25 @@
 
 |#|语法|效果|
 |---|----|:---:|
-|1|`*斜体1*`|*斜体1*|
-|2|`_斜体2_`|*斜体2*|
-|3|`**粗体1**`|**粗体1**|
-|4|`__粗体2__`|**粗体2**|
-|5|`***斜粗体1***`|***斜粗体1***|
-|6|`___斜粗体2___`|***斜粗体2***|
-|7|`***~~斜粗体删除线1~~***`|***~~斜粗体删除线1~~***|
-|8|`~~***斜粗体删除线2***~~`|~~***斜粗体删除线2***~~|
-|9|`*可以 **组合** 这些符号*`|*可以 **组合** 这些符号*|
-|10|`这是一个 ~~删除线~~`|这是一个 ~~删除线~~|
-|11|`<font color="#ff79aa">有颜色的文字1 (no GFM)</font>`|<font color="#ff79aa">有颜色的文字1 (no GFM)</font>|
-|12|`<span style="color:#ff79aa">有颜色的文字2 (no GFM)</span>`|<span style="color:#ff79aa">有颜色的文字2 (no GFM)</span>|
-|13|`==这是标记的文字 (MPE)==`|==这是标记的文字 (MPE)==|
-|14|`下标<sub>文本</sub>在此。`|下标<sub>文本</sub>在此。|
-|15|`上标<sup>文本</sup>在此。`|上标<sup>文本</sup>在此。|
+|1|`*italic 1*`|*italic 1*|
+|2|`_italic 2_`|*italic 2*|
+|3|`**bold 1**`|**bold 1**|
+|4|`__bold 2__`|**bold 2**|
+|5|`***italic bold 1***`|***italic bold 1***|
+|6|`___italic bold 2___`|***italic bold 2***|
+|7|`***~~italic bold strikethrough 1~~***`|***~~italic bold strikethrough 1~~***|
+|8|`~~***italic bold strikethrough 2***~~`|~~***italic bold strikethrough 2***~~|
+|9|`*You can **combine** these symbols*`|*You can **combine** these symbols*|
+|10|`This is a ~~strikethrough~~`|This is a ~~strikethrough~~|
+|11|`<font color="#ff79aa">Colored text 1 (no GFM)</font>`|<font color="#ff79aa">有Colored text 1 (no GFM)</font>|
+|12|`<span style="color:#ff79aa">Colored text 2 (no GFM)</span>`|<span style="color:#ff79aa">Colored text 2 (no GFM)</span>|
+|13|`==This is the marked text (MPE)==`|==This is the marked text (MPE)==|
+|14|`subscript<sub>text</sub>here`|subscript<sub>text</sub>here|
+|15|`superscript<sup>text</sup>here`|superscript<sup>text</sup>here|
 |16|`30^th^`|30^th^ (MPE)|
 |17|`H~2~O`|H~2~O (MPE)|
 
-> GitHub 上的 Markdown 渲染不支持通过标准 Markdown 或 HTML 标签直接改变字体颜色。
+> Markdown rendering on GitHub does not support directly changing font colors through standard Markdown or HTML tags.
 
 ---
 

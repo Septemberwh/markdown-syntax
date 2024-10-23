@@ -14,12 +14,18 @@ export function activate(context: vscode.ExtensionContext) {
 
 	// Create a new instance of I18n
 	const i18n = I18n.getInstance();
+	console.log("🚀 ~ activate ~ i18n:", i18n);
 
 	// 注册命令 "markdown-syntax.openMarkdownWithSidePreview"
 	const disposable = vscode.commands.registerCommand('markdown-syntax.openMarkdownWithSidePreview', async () => {
 		try {
+			const locale = i18n?.getLocale() || 'en';
 			// 获取 markdown.md 文件的绝对路径
-			const markdownPath = path.join(context.extensionPath, 'markdown.md');
+			let markdownPath = path.join(context.extensionPath, 'markdown_en.md'); // 默认使用英文
+			// 如果是中文环境，加载中文
+			if (locale.toLowerCase().startsWith('zh')) {
+				markdownPath = path.join(context.extensionPath, 'markdown.md'); // 中文
+			}
 			// 打开 markdown 文件
 			const doc = await vscode.workspace.openTextDocument(markdownPath);
 			// 在编辑器中显示文件
