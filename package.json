@@ -1,7 +1,7 @@
 {
   "name": "markdown-syntax",
   "displayName": "Markdown Syntax",
-  "description": "Example of markdown syntax",
+  "description": "%description%",
   "version": "0.0.5",
   "publisher": "SeptWong",
   "engines": {
@@ -22,7 +22,7 @@
     "commands": [
       {
         "command": "markdown-syntax.openMarkdownWithSidePreview",
-        "title": "打开 Markdown 语法示例",
+        "title": "%markdown-syntax.openMarkdownWithSidePreview.title%",
         "category": "Markdown syntax"
       }
     ],
