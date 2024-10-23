@@ -16,7 +16,7 @@
 <p align="center">
     <span> 简体中文</span>
     ·
-    <a href="https://github.com/Septemberwh/markdown-syntax/blob/main/README.md">English</a>
+    <a href="https://github.com/Septemberwh/markdown-syntax/blob/main/README_en.md">English</a>
 </p>
 
 ## 概述

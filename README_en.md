@@ -14,7 +14,7 @@
 > Markdown syntax examples
 
 <p align="center">
-    <a href="https://github.com/Septemberwh/markdown-syntax/blob/main/README_CN.md"> 简体中文</a>
+    <a href="https://github.com/Septemberwh/markdown-syntax/blob/main/README_zh-cn.md"> 简体中文</a>
     ·
     <span> English</span>
 </p>
