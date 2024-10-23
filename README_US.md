@@ -30,8 +30,8 @@ A quick reference for viewing Markdown syntax examples.
 
 ## How to Use
 
-- Open any `.md` file, right-click to see the menu option `Open Markdown Syntax Examples`
-- Press `CMD + Shift + P` (Mac) or `CTRL + Shift + P` (Windows/Linux), type and select `Markdown syntax: Open Markdown Syntax Examples`
+- Open any `.md` file, right-click to see the menu option `Open Markdown syntax examples`
+- Press `CMD + Shift + P` (Mac) or `CTRL + Shift + P` (Windows/Linux), type and select `Markdown syntax: Open Markdown syntax examples`
 
 <!-- ### Examples
 
