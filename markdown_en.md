@@ -42,7 +42,7 @@ The title has 2 classes {.class1 .class2} [test.md#2](./test.md#2)
 ## Styling text
 
 |#|Example|Output|Keyboard shortcut|
-|---|----|:---:|:---|
+|---|----|:---:|:---:|
 |1|`*italic 1*`|*italic 1*|`Command`+`I` (Mac) or `Ctrl`+`I` (Windows/Linux)|
 |2|`_italic 2_`|*italic 2*|
 |3|`**bold 1**`|**bold 1**|`Command`+`B` (Mac) or `Ctrl`+`B` (Windows/Linux)|
