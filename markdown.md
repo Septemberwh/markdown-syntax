@@ -41,11 +41,11 @@
 
 ## 字体
 
-|#|语法|效果|
-|---|----|:---:|
-|1|`*斜体1*`|*斜体1*|
+|#|语法|效果|快捷键|
+|---|----|:---:|:---|
+|1|`*斜体1*`|*斜体1*|`Command`+`I` (Mac) or `Ctrl`+`I` (Windows/Linux)|
 |2|`_斜体2_`|*斜体2*|
-|3|`**粗体1**`|**粗体1**|
+|3|`**粗体1**`|**粗体1**|`Command`+`B` (Mac) or `Ctrl`+`B` (Windows/Linux)|
 |4|`__粗体2__`|**粗体2**|
 |5|`***斜粗体1***`|***斜粗体1***|
 |6|`___斜粗体2___`|***斜粗体2***|
@@ -76,6 +76,22 @@
 > 这是引用的内容
 >> 这是引用的内容
 >>>>>>>>>> 这是引用的内容
+
+## 颜色模型 (GFM)
+
+> GitHub: 仅在问题、拉取请求和讨论中支持颜色的可视化。
+
+```markdown
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+```
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
+|Color|Example|
+|----|:---:|
+|HEX|`#0969DA`|
+|RGB|`rgb(9, 105, 218)`|
+|HSL|`hsl(212, 92%, 45%)`|
 
 ## 分割线
 

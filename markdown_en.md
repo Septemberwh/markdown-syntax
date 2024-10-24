@@ -77,7 +77,9 @@ The title has 2 classes {.class1 .class2} [test.md#2](./test.md#2)
 >> Text that is not a quote
 >>>>>>>>>> Text that is not a quote
 
-## Supported color models
+## Supported color models (GFM)
+
+> GitHub：The visualization of the color is only supported in issues, pull requests, and discussions.
 
 ```markdown
 The background color is `#ffffff` for light mode and `#000000` for dark mode.
@@ -92,146 +94,141 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 |HSL|`hsl(212, 92%, 45%)`|
 
 
-## 分割线
+## Divider
 
 ```text
---- 连字符
----- 多个连字符
-*** 星号
-***** 多个星号
-___ 下划线
+--- hyphen
+---- multiple hyphens
+*** asterisk
+***** multiple asterisks
+___ underline
 ```
 
 ---
 
 ## Images
 
+<!-- The image alt is the text displayed below the image, which is equivalent to an explanation of the content of the image.  
+The image title is the title of the image, which displays the content when the mouse hovers over the image. The title can be added or not. -->
+
 ```markdown
-![图片alt](图片地址 ''图片title'')
-
-图片alt就是显示在图片下面的文字，相当于对图片内容的解释。
-图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加
-
-![blockchain](https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/550/format/webp "区块链")
-![知乎头像][zhihu-avatar] 
-[![知乎头像][zhihu-avatar]][zhihu]
-<img src="https://pica.zhimg.com/91d97c65727a03b5ac9f59cd2c701c7d_l.jpg?source=32738c0c" alt="描述文本" width="40" height="40"> -- 控制图片的大小
+![alt text](url "title")  
+![blockchain](https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/550/format/webp "blockchain")
+![Zhihu avatar][zhihu-avatar] 
+[![Zhihu Avatar][zhihu-avatar]][zhihu]
+<img src="https://pica.zhimg.com/91d97c65727a03b5ac9f59cd2c701c7d_l.jpg?source=32738c0c" alt="description text" width="40" height="40"> -- Control the size of images
 ```
 
-|#|语法|效果|
+|#|Example|Output|
 |---|----|:---:|
-|1| `![blockchain](https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/550/format/webp "区块链")` | ![blockchain](https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/550/format/webp "区块链") |
-|2| `![知乎头像][zhihu-avatar]` | ![知乎头像][zhihu-avatar] |
-|3| `[![知乎头像][zhihu-avatar]][zhihu]` | [![知乎头像][zhihu-avatar]][zhihu] |
-|4| `<img src="https://pica.zhimg.com/91d97c65727a03b5ac9f59cd2c701c7d_l.jpg?source=32738c0c" alt="描述文本" width="40" height="40">` | <img src="https://pica.zhimg.com/91d97c65727a03b5ac9f59cd2c701c7d_l.jpg?source=32738c0c" alt="描述文本" width="40" height="40"> |
+|1| `![blockchain](https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/550/format/webp "blockchain")` | ![blockchain](https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/550/format/webp "blockchain") |
+|2| `![Zhihu avatar][zhihu-avatar]` | ![Zhihu avatar][zhihu-avatar] |
+|3| `[![Zhihu avatar][zhihu-avatar]][zhihu]` | [![Zhihu avatar][zhihu-avatar]][zhihu] |
+|4| `<img src="https://pica.zhimg.com/91d97c65727a03b5ac9f59cd2c701c7d_l.jpg?source=32738c0c" alt="description text" width="40" height="40">` | <img src="https://pica.zhimg.com/91d97c65727a03b5ac9f59cd2c701c7d_l.jpg?source=32738c0c" alt="description text" width="40" height="40"> |
 
-> • width 和 height 属性可以使用像素值（如 40px）或百分比（如 50%）。  
-> • 在 GitHub 上，使用 `<img>`标签可以成功调整图片的大小。  
-> • 请注意，使用标准的 Markdown 语法 `![alt text](url)` 插入图片时，无法直接控制大小。如果需要调整大小，必须使用 HTML。  
+<!-- > • The width and height attributes can use pixel values (such as 40px) or percentages (such as 50%).  
+> • On GitHub, using the `<img>` tag can successfully resize images.  
+> • Please note that when inserting images using the standard Markdown syntax `![alt text](url)`, the size cannot be directly controlled. If resizing is required, HTML must be used.  
 
-> 本文 `[zhihu-avatar]` `[zhihu]` URL标识符都放置于文末  
-> `[zhihu]: https://www.zhihu.com/people/septwong "我的知乎，欢迎关注"`
+> The URL identifiers for `[zhihu-avatar]` and `[zhihu]` in this article are placed at the end of the text.  
+> `[zhihu]: https://www.zhihu.com/people/septwong "My Zhihu, welcome to follow"` -->
 
 ---
 
 ## Links
 
 ```markdown
-[超链接名](超链接地址 "超链接title")
-title可加可不加
+[alt text](url "title")
+Title can be added or omitted
 
-[百度](http://baidu.com "百度")
-[我的知乎][zhihu] -- zhihu: 复用，放文章末尾
-[test.md](./test.md) -- 本地 url
+[Baidu](http://baidu.com "Baidu")
+[My Zhihu][zhihu] -- zhihu: Reuse, put at the end of the article
+[test.md](./test.md) -- local url
 ```
 
-|#|语法|效果|
+|#|Example|Output|
 |---|----|:---:|
-|1|`[百度](http://baidu.com "百度")`|[百度](http://baidu.com "百度")|
-|2|`[我的知乎][zhihu]`|[我的知乎][zhihu]|
+|1|`[Baidu](http://baidu.com "Baidu")`|[Baidu](http://baidu.com "Baidu")|
+|2|`[My Zhihu][zhihu]`|[My Zhihu][zhihu]|
 |3|`[test.md](./test.md)`|[test.md](./test.md)|
 
 ---
 
 ## Lists
 
-`无序列表`： - + * 任何一种都可以
+`Unordered list`:
 
 ```markdown
-- 列表内容
-+ 列表内容
-* 列表内容
-
-🔥注意：- + * 跟内容之间都要有一个空格
+- List Content
++ List Content
+* List Content
 ```
 
-- 列表内容
+- List Content
 
-- 列表内容
+- List Content
 
-- 列表内容
+- List Content
 
-`有序列表`：数字加点
+`Ordered List`:
 
 ```markdown
-1. 列表内容
-2. 列表内容
-3. 列表内容
-
-🔥注意：序号跟内容之间要有空格
+1. List Content
+2. List Content
+3. List Content
 ```
 
-1. 列表内容
-2. 列表内容
-3. 列表内容
+1. List Content
+2. List Content
+3. List Content
 
-`列表嵌套`：上一级和下一级之间敲三个空格即可
+`List nesting`:
 
 ```markdown
-- 一级序列
-  - 二级序列
-  - 二级序列
+- First level sequence
+  - Secondary sequence
+  - Secondary sequence
 ```
 
-- 一级序列
-  - 二级序列
-  - 二级序列
+- First level sequence
+  - Secondary sequence
+  - Secondary sequence
 
 ---
 
 ## Tables
 
-连字符的左侧，右侧或两侧添加冒号（:），将列中的文本对齐到左侧，右侧或中心。
+Add a colon to the left, right, or both sides of the hyphen（:），Align the text in the column to the left, right, or center.
 
 ```markdown
-| 表头 | 表头  | 表头 |
+| Head | Head | Head |
 | ---- | :---: | ---: |
-| 内容 | 内容  | 内容 |
-| 内容 | 内容  | 内容 |
+| Content | Content  | Content |
+| Content | Content  | Content |
+```
 
-第二行分割表头和内容。
+<!-- 第二行分割表头和内容。
 - 有一个就行，为了对齐，多加了几个
 文字默认居左
 - 两边加：表示文字居中
 - 右边加：表示文字居右
-注：原生的语法两边都要用 | 包起来。此处省略
-```
+注：原生的语法两边都要用 | 包起来。此处省略 -->
 
-| 姓名 | 技能  | 排行 |
+| Name | Skill  | Ranking |
 | ---- | :---: | ---: |
-| 刘备 |  哭   | 大哥 |
-| 关羽 |  打   | 二哥 |
-| 张飞 |  骂   | 三弟 |
+| Liu Bei |  Cry   | 1 |
+| Guan Yu |  Strike   | 2 |
+| Zhang Fei |  Scold  | 3 |
 
 ```markdown
-表格居中
+Center the table
 
 <div align="center">
 
-| 表头1 | 表头2|
+| Head | Head |
 | ---------- | -----------|
-| 表格单元 | 表格单元 |
-| 表格单元 | 表格单元 |
+| Cell | Cell |
+| Cell | Cell |
 
 </div>
 ```
@@ -240,13 +237,13 @@ title可加可不加
 
 ## Quoting code
 
-`单行代码`：代码之间分别用一个反引号包起来
+`Single line code`:
 
 ```javascript
- `代码内容`
+ `Code Content`
 ```
 
-`代码块`：代码之间分别用三个反引号(```)包起来，且两边的反引号单独占一行
+`Code block`:
 
 ```json
 {
@@ -256,7 +253,7 @@ title可加可不加
 }
 ```
 
-`代码块 class` (MPE) : 给你的代码块设置 `class`
+`Code block` (MPE) : `class`
 
 ```javascript {.class1, class2}
 // ```javascript {.class1, class2}
@@ -265,7 +262,7 @@ function add(x, y) {
 }
 ```
 
-`代码行数` (MPE) : 代码块显示行数，添加 `line-numbers` class 就可以了。
+`Lines of code` (MPE) : `line-numbers`
 
 ```javascript {.line-numbers}
 // ```javascript {.line-numbers}
@@ -274,7 +271,7 @@ function add(x, y) {
 }
 ```
 
-`高亮代码行数` (MPE) : 添加 `highlight`
+`Highlighted code lines` (MPE) : `highlight`
 
 ```javascript {highlight=1}
 // ```javascript {highlight=1}
@@ -302,14 +299,14 @@ function add(x, y) {
 
 ## Custom anchors
 
-其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们
+Each title is an anchor point (``#``).
 
-|语法|效果|
+|Example|Output|
 |---|---|
-|`[回到标题](#标题)`|[回到标题](#标题)|
+|`[Return to Headings](#headings)`|[Return to Headings](#headings)|
 |`<a id="custom-anchor">custom-anchor</a>`|<a id="custom-anchor">custom-anchor</a>|
 
-🔥注意：标题中的英文字母都被转化为**小写字母**了, 并且将**空格**替换为**短横线（-）**。
+🔥Tips：All English letters in the title are converted to lowercase letters and spaces are replaced with short horizontal lines.
 
 ---
 
@@ -327,34 +324,34 @@ Jump to other files example [test.md#1](./test.md#1)
 
 ## Diff Highlight
 
-`+`: 添加  
-`-`: 删除  
-`!`: 修改  
-`#`: 行号  
+`+`: Add  
+`-`: Delete  
+`!`: Modify  
+`#`: Line number  
 
 ```diff
-+ 人闲桂花落，
-- 夜静春山空。
-! 月出惊山鸟，
-# 时鸣春涧中。
++ In the morning，
+- In the afternoon,
+! In the evening,
+# In the night
 ```
 
 ---
 
 ## Task lists
 
-- [ ] 待完成
-- [x] 已完成
-- [ ] ~~未完成~~
+- [ ] To be completed
+- [x] Completed
+- [ ] ~~Incomplete~~
 
 ---
 
 ## Folding content
 
 <details>
-<summary>菜单</summary>
+<summary>Menu</summary>
 
-菜单内容
+Menu content
 
 Want to try different model sizes and configurations?
 
@@ -399,14 +396,14 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 ## Website and email address
 
-- 未使用方括号，您的Markdown处理器也会自动将其转换为链接。
-- 要将URL或电子邮件地址快速转换为链接，请将其括在尖括号中。
+- Without using square brackets, your Markdown processor will automatically convert it into a link.
+- To quickly convert a URL or email address into a link, please enclose it in angle brackets.
 
-网址：<http://www.example.com>
+URL：<http://www.example.com>
 
-邮箱地址：<test@example.com>
+e-mail address：<test@example.com>
 
-如果您不希望自动链接URL，则可以通过将URL表示为带反引号的代码来删除该链接。
+If you do not want the URL to be automatically linked, you can remove the link by representing the URL as code with back quotes.
 
 `http://www.example.com`
 
@@ -425,12 +422,9 @@ Second Term
 
 ## Flow Chart
 
-### Mermaid
+[mermaid](https://github.com/mermaid-js/mermaid) : Rendering flowcharts and timing diagrams.
 
-Markdown Preview Enhanced 使用 [mermaid](https://github.com/mermaid-js/mermaid) 来渲染流程图和时序图。
-
-- `mermaid` 代码块中的内容将会渲染 [mermaid](https://github.com/mermaid-js/mermaid) 图像。
-- 查看 [mermaid](https://mermaid-js.github.io/mermaid/) 文档 了解更多如果创建图形。
+[mermaid document](https://mermaid-js.github.io/mermaid/)
 
 ```mermaid
 graph TD;
@@ -518,10 +512,10 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 ## Badge
 
-绘制徽章，首选就是 [shields.io](https://shields.io/)  具体语法去官网探索。
+Draw badges: [shields.io](https://shields.io/)
 
 ```text
-https://img.shields.io/badge/{左半部分标签}-{右半部分标签}-{右半部分颜色}
+https://img.shields.io/badge/{left text}-{right text}-{right color}
 ```
 
 ![Author](https://img.shields.io/badge/Author-Septemberwh-blue.svg)
@@ -534,16 +528,16 @@ https://img.shields.io/badge/{左半部分标签}-{右半部分标签}-{右半�
     <img alt="markdown-syntax Repo stars" src="https://img.shields.io/github/stars/Septemberwh/markdown-syntax">
 </a>
 
-其次有些第三方平台也提供方便的徽章，比如 [gitter.im](https://gitter.im)：
+Others: [gitter.im](https://gitter.im)：
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://badges.gitter.im/guodongxiaren/README.svg)](https://gitter.im/guodongxiaren/README?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Star History
 
-star历史可以使用这个网站 [star-history.com](https://star-history.com/) or [github star-history](https://github.com/star-history/star-history)
+star history website: [star-history.com](https://star-history.com/) or [github star-history](https://github.com/star-history/star-history)
 
 ```markdown
-Septemberwh/markdown-syntax -- github账号/项目名称
+Septemberwh/markdown-syntax -- github account/project name
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Septemberwh/markdown-syntax&type=Date)](https://star-history.com/#Septemberwh/markdown-syntax&Date)
 ```
@@ -552,6 +546,6 @@ Septemberwh/markdown-syntax -- github账号/项目名称
 
 ---
 
-<!-- 复用资源： -->
-[zhihu-avatar]: https://pica.zhimg.com/91d97c65727a03b5ac9f59cd2c701c7d_l.jpg?source=32738c0c "知乎头像"
-[zhihu]: https://www.zhihu.com/people/septwong "我的知乎，欢迎关注"
+<!-- Reuse resources： -->
+[zhihu-avatar]: https://pica.zhimg.com/91d97c65727a03b5ac9f59cd2c701c7d_l.jpg?source=32738c0c "Zhihu avatar"
+[zhihu]: https://www.zhihu.com/people/septwong "My Zhihu, welcome to follow"
