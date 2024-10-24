@@ -23,7 +23,7 @@
 
 A quick reference for viewing Markdown syntax examples.
 
-- Preview [Github Markdown](https://github.com/Septemberwh/markdown-syntax/blob/main/markdown.md)
+- Preview [Github Markdown](https://github.com/Septemberwh/markdown-syntax/blob/main/markdown_en.md)
 <!-- - Preview [Local Markdown](./markdown.md) -->
 
 > Recommended Markdown preview plugin: [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
