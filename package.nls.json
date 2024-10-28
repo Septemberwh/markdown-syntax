@@ -1,5 +1,7 @@
 {
   "description": "Markdown syntax examples",
   "markdown-syntax.openMarkdownWithSidePreview.title": "Open Markdown syntax examples",
-  "markdown-syntax.showErrorMessage": "Cannot open Markdown file: "
+  "markdown-syntax.showErrorMessage": "Cannot open Markdown file: ",
+  "markdown-syntax.mdTableToJson.title": "Convert Markdown Table to JSON",
+  "markdown-syntax.jsonToMdTable.title": "Convert JSON to Markdown Table"
 }

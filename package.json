@@ -24,6 +24,16 @@
         "command": "markdown-syntax.openMarkdownWithSidePreview",
         "title": "%markdown-syntax.openMarkdownWithSidePreview.title%",
         "category": "Markdown syntax"
+      },
+      {
+        "command": "markdown-syntax.mdTableToJson",
+        "title": "%markdown-syntax.mdTableToJson.title%",
+        "category": "Markdown syntax"
+      },
+      {
+        "command": "markdown-syntax.jsonToMdTable",
+        "title": "%markdown-syntax.jsonToMdTable.title%",
+        "category": "Markdown syntax"
       }
     ],
     "menus": {
@@ -31,7 +41,17 @@
         {
           "when": "resourceExtname == .md",
           "command": "markdown-syntax.openMarkdownWithSidePreview",
-          "group": "navigation"
+          "group": "ms@1"
+        },
+        {
+          "when": "resourceExtname == .md",
+          "command": "markdown-syntax.mdTableToJson",
+          "group": "ms@2"
+        },
+        {
+          "when": "resourceExtname == .md",
+          "command": "markdown-syntax.jsonToMdTable",
+          "group": "ms@3"
         }
       ]
     }

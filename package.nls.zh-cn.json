@@ -1,5 +1,7 @@
 {
   "description": "Markdown 语法示例",
   "markdown-syntax.openMarkdownWithSidePreview.title": "打开 Markdown 语法示例",
-  "markdown-syntax.showErrorMessage": "无法打开 Markdown 文件: "
+  "markdown-syntax.showErrorMessage": "无法打开 Markdown 文件: ",
+  "markdown-syntax.mdTableToJson.title": "将 Markdown 表格转换为 JSON",
+  "markdown-syntax.jsonToMdTable.title": "将 JSON 转换为 Markdown 表格"
 }

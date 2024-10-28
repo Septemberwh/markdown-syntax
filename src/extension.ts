@@ -3,6 +3,8 @@
 import * as vscode from 'vscode';
 import * as path from 'path';
 import { I18n } from './i18n';
+import { registerMdToJsonCommand } from './mdToJson';
+import { registerJsonToMdCommand } from './jsonToMd';
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
@@ -44,6 +46,10 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	context.subscriptions.push(disposable);
+
+	registerMdToJsonCommand(context); // 注册 md 转 json
+
+	registerJsonToMdCommand(context); // 注册 json 转 md
 }
 
 // This method is called when your extension is deactivated
