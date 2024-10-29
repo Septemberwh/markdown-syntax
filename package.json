@@ -44,12 +44,12 @@
           "group": "ms@1"
         },
         {
-          "when": "resourceExtname == .md",
+          "when": "editorTextFocus && editorLangId == markdown",
           "command": "markdown-syntax.mdTableToJson",
           "group": "ms@2"
         },
         {
-          "when": "resourceExtname == .md",
+          "when": "editorTextFocus && editorLangId == markdown",
           "command": "markdown-syntax.jsonToMdTable",
           "group": "ms@3"
         }

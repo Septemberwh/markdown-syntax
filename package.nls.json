@@ -3,5 +3,11 @@
   "markdown-syntax.openMarkdownWithSidePreview.title": "Open Markdown syntax examples",
   "markdown-syntax.showErrorMessage": "Cannot open Markdown file: ",
   "markdown-syntax.mdTableToJson.title": "Convert Markdown Table to JSON",
-  "markdown-syntax.jsonToMdTable.title": "Convert JSON to Markdown Table"
+  "markdown-syntax.jsonToMdTable.title": "Convert JSON to Markdown Table",
+  "markdown-syntax.jsonToMd.json_error": "The selected content is not a valid JSON array.",
+  "markdown-syntax.jsonToMd.copy": "Markdown table copied to clipboard.",
+  "markdown-syntax.jsonToMd.failed": "Failed to convert JSON to Markdown table.",
+  "markdown-syntax.mdToJson.md_error": "The selected content is not a valid Markdown table.",
+  "markdown-syntax.mdToJson.copy": "JSON copied to clipboard.",
+  "markdown-syntax.mdToJson.failed": "Failed to convert Markdown table to JSON."
 }

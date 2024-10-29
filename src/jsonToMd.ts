@@ -1,4 +1,7 @@
 import * as vscode from 'vscode';
+import { I18n } from './i18n';
+
+const i18n = I18n.getInstance();
 
 function padText(text: string, width: number): string {
   const padding = width - text.length;
@@ -14,7 +17,7 @@ function formatRow(row: string[], columnWidths: number[]): string {
 export function jsonToMdTable(json: object[]): string {
   // 如果不是 JSON格式，抛出错误
   if (!Array.isArray(json)) {
-    throw new Error('The selected content is not a valid JSON array.');
+    throw new Error(i18n.localize('markdown-syntax.jsonToMd.json_error'));
   }
 
   const headers = Object.keys(json[0]);
@@ -42,9 +45,9 @@ export function registerJsonToMdCommand(context: vscode.ExtensionContext) {
         const json = JSON.parse(text);
         const mdTable = jsonToMdTable(json);
         await vscode.env.clipboard.writeText(mdTable);
-        vscode.window.showInformationMessage('Markdown table copied to clipboard');
+        vscode.window.showInformationMessage(i18n.localize('markdown-syntax.jsonToMd.copy'));
       } catch (error) {
-        vscode.window.showErrorMessage('Failed to convert JSON to Markdown table.');
+        vscode.window.showErrorMessage(i18n.localize('markdown-syntax.jsonToMd.failed'));
       }
     }
   });

@@ -3,5 +3,11 @@
   "markdown-syntax.openMarkdownWithSidePreview.title": "打开 Markdown 语法示例",
   "markdown-syntax.showErrorMessage": "无法打开 Markdown 文件: ",
   "markdown-syntax.mdTableToJson.title": "将 Markdown 表格转换为 JSON",
-  "markdown-syntax.jsonToMdTable.title": "将 JSON 转换为 Markdown 表格"
+  "markdown-syntax.jsonToMdTable.title": "将 JSON 转换为 Markdown 表格",
+  "markdown-syntax.jsonToMd.json_error": "所选内容不是有效的 JSON 数组。",
+  "markdown-syntax.jsonToMd.copy": "Markdown 表格已复制到剪贴板。",
+  "markdown-syntax.jsonToMd.failed": "无法将 JSON 转换为 Markdown 表格。",
+  "markdown-syntax.mdToJson.md_error": "所选内容不是有效的 Markdown 表格。",
+  "markdown-syntax.mdToJson.copy": "JSON 已复制到剪贴板。",
+  "markdown-syntax.mdToJson.failed": "无法将 Markdown 表转换为 JSON。"
 }
