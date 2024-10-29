@@ -29,9 +29,12 @@ A quick reference for viewing Markdown syntax examples.
 > Recommended Markdown preview plugin: [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
 ## How to Use
-
-- Open any `.md` file, right-click to see the menu option `Open Markdown syntax examples`
-- Press `CMD + Shift + P` (Mac) or `CTRL + Shift + P` (Windows/Linux), type and select `Markdown syntax: Open Markdown syntax examples`
+- **Syntax examples:**
+  - Open any `.md` file, right-click to see the menu option `Open Markdown syntax examples`.
+  - Press `CMD + Shift + P` (Mac) or `CTRL + Shift + P` (Windows/Linux), type and select `Markdown syntax: Open Markdown syntax examples`.
+- **Other functions:**
+  - `Convert JSON to Markdown Table`, following the `Syntax examples` above.
+  - `Convert Markdown Table to JSON`, following the `Syntax examples` above.
 
 <!-- ### Examples
 

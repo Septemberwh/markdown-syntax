@@ -1,5 +1,10 @@
 # Change Log
 
+#### `0.0.7` 2024-10-29
+
+- Add `Convert JSON to Markdown Table`
+- Add `Convert Markdown Table to JSON`
+
 #### `0.0.6` 2024-10-24
 
 - 降低对 VS Code 的版本依赖，兼容 Cursor 编辑器

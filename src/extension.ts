@@ -3,6 +3,7 @@
 import * as vscode from 'vscode';
 import * as path from 'path';
 import { I18n } from './i18n';
+import { isDisplayMessages } from './utils/util';
 import { registerMdToJsonCommand } from './mdToJson';
 import { registerJsonToMdCommand } from './jsonToMd';
 
@@ -41,7 +42,7 @@ export function activate(context: vscode.ExtensionContext) {
 				doc.uri
 			);
 		} catch (error) {
-			vscode.window.showErrorMessage(i18n.localize('markdown-syntax.showErrorMessage') + (error as Error).message);
+			isDisplayMessages() && vscode.window.showErrorMessage(i18n.localize('markdown-syntax.showErrorMessage') + (error as Error).message);
 		}
 	});
 

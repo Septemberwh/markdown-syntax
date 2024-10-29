@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
 import { I18n } from './i18n';
+import { isDisplayMessages } from './utils/util';
 
 const i18n = I18n.getInstance();
 
@@ -45,9 +46,9 @@ export function registerJsonToMdCommand(context: vscode.ExtensionContext) {
         const json = JSON.parse(text);
         const mdTable = jsonToMdTable(json);
         await vscode.env.clipboard.writeText(mdTable);
-        vscode.window.showInformationMessage(i18n.localize('markdown-syntax.jsonToMd.copied'));
+        isDisplayMessages() && vscode.window.showInformationMessage(i18n.localize('markdown-syntax.jsonToMd.copied'));
       } catch (error) {
-        vscode.window.showErrorMessage(i18n.localize('markdown-syntax.jsonToMd.failed'));
+        isDisplayMessages() && vscode.window.showErrorMessage(i18n.localize('markdown-syntax.jsonToMd.failed'));
       }
     }
   });

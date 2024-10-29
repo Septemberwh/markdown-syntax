@@ -30,8 +30,12 @@
 
 ## 使用方法
 
-- 打开任意 `.md` 文件，右键鼠标即可看到菜单 `打开 Markdown 语法示例`
-- 按下 `CMD + Shift + P`（Mac）或 `CTRL + Shift + P`（Windows/Linux），输入并选择 `Markdown syntax：打开 Markdown 语法示例`
+- **语法示例：**
+  - 打开任意 `.md` 文件，右键鼠标即可看到菜单 `打开 Markdown 语法示例`
+  - 按下 `CMD + Shift + P`（Mac）或 `CTRL + Shift + P`（Windows/Linux），输入并选择 `Markdown syntax：打开 Markdown 语法示例`
+- **其他功能：**
+  - `将 JSON 转换为 Markdown 表格`，操作同上面`语法示例`
+  - `将 Markdown 表格转换为 JSON`，操作同上面`语法示例`
 
 ### 示例
 

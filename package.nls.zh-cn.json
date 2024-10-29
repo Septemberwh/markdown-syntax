@@ -9,5 +9,6 @@
   "markdown-syntax.jsonToMd.failed": "无法将 JSON 转换为 Markdown 表格。",
   "markdown-syntax.mdToJson.md_error": "所选内容不是有效的 Markdown 表格。",
   "markdown-syntax.mdToJson.copied": "JSON 已复制到剪贴板。",
-  "markdown-syntax.mdToJson.failed": "无法将 Markdown 表转换为 JSON。"
+  "markdown-syntax.mdToJson.failed": "无法将 Markdown 表转换为 JSON。",
+  "markdown-syntax.configuration.displayMessages": "显示或关闭消息提醒。"
 }

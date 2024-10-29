@@ -9,5 +9,6 @@
   "markdown-syntax.jsonToMd.failed": "Failed to convert JSON to Markdown table.",
   "markdown-syntax.mdToJson.md_error": "The selected content is not a valid Markdown table.",
   "markdown-syntax.mdToJson.copied": "JSON copied to clipboard.",
-  "markdown-syntax.mdToJson.failed": "Failed to convert Markdown table to JSON."
+  "markdown-syntax.mdToJson.failed": "Failed to convert Markdown table to JSON.",
+  "markdown-syntax.configuration.displayMessages": "Display or disable message reminders."
 }

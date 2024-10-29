@@ -2,7 +2,7 @@
   "name": "markdown-syntax",
   "displayName": "Markdown Syntax",
   "description": "%description%",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "SeptWong",
   "engines": {
     "vscode": "^1.90.0"
@@ -54,6 +54,16 @@
           "group": "ms@3"
         }
       ]
+    },
+    "configuration": {
+      "title": "markdown-syntax",
+      "properties": {
+        "markdown-syntax.displayMessages": {
+          "type": "boolean",
+          "default": true,
+          "description": "%markdown-syntax.configuration.displayMessages%"
+        }
+      }
     }
   },
   "repository": {
