@@ -2,6 +2,12 @@ import * as vscode from 'vscode';
 
 export function mdTableToJson(text: string): object[] {
   const lines = text.trim().split('\n');
+
+  // 如果不是标准 Markdown 表格格式，抛出错误
+  if (lines.length < 2 || !lines[1].includes('|')) {
+    throw new Error('The selected content is not a valid Markdown table.');
+  }
+
   const headers = lines[0].split('|').map(h => h.trim()).filter(Boolean);
   const rows = lines.slice(2).map(line =>
     line.split('|').map(cell => cell.trim()).filter(Boolean)
@@ -24,7 +30,7 @@ export function registerMdToJsonCommand(context: vscode.ExtensionContext) {
         const json = mdTableToJson(text);
         const jsonString = JSON.stringify(json, null, 2);
         await vscode.env.clipboard.writeText(jsonString);
-        vscode.window.showInformationMessage('Markdown table converted to JSON and copied to clipboard.');
+        vscode.window.showInformationMessage('JSON copied to clipboard');
       } catch (error) {
         vscode.window.showErrorMessage('Failed to convert Markdown table to JSON.');
       }

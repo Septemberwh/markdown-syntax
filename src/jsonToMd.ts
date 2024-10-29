@@ -12,6 +12,11 @@ function formatRow(row: string[], columnWidths: number[]): string {
 }
 
 export function jsonToMdTable(json: object[]): string {
+  // 如果不是 JSON格式，抛出错误
+  if (!Array.isArray(json)) {
+    throw new Error('The selected content is not a valid JSON array.');
+  }
+
   const headers = Object.keys(json[0]);
   const rows = json.map((obj: Record<string, any>) => headers.map(header => String(obj[header] || '')));
 
@@ -37,7 +42,7 @@ export function registerJsonToMdCommand(context: vscode.ExtensionContext) {
         const json = JSON.parse(text);
         const mdTable = jsonToMdTable(json);
         await vscode.env.clipboard.writeText(mdTable);
-        vscode.window.showInformationMessage('JSON converted to Markdown table and copied to clipboard.');
+        vscode.window.showInformationMessage('Markdown table copied to clipboard');
       } catch (error) {
         vscode.window.showErrorMessage('Failed to convert JSON to Markdown table.');
       }
