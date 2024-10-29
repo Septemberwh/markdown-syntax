@@ -33,7 +33,7 @@ export function registerMdToJsonCommand(context: vscode.ExtensionContext) {
         const json = mdTableToJson(text);
         const jsonString = JSON.stringify(json, null, 2);
         await vscode.env.clipboard.writeText(jsonString);
-        vscode.window.showInformationMessage(i18n.localize('markdown-syntax.mdToJson.copy'));
+        vscode.window.showInformationMessage(i18n.localize('markdown-syntax.mdToJson.copied'));
       } catch (error) {
         vscode.window.showErrorMessage(i18n.localize('markdown-syntax.mdToJson.failed'));
       }
