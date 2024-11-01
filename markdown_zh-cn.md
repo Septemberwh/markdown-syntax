@@ -534,7 +534,7 @@ https://img.shields.io/badge/{左半部分标签}-{右半部分标签}-{右半�
 
 其次有些第三方平台也提供方便的徽章，比如 [gitter.im](https://gitter.im)：
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://badges.gitter.im/guodongxiaren/README.svg)](https://gitter.im/guodongxiaren/README?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/septwong/README](https://badges.gitter.im/septwong/README.svg)](https://gitter.im/septwong/README?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## star历史
 

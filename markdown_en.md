@@ -530,7 +530,7 @@ https://img.shields.io/badge/{left text}-{right text}-{right color}
 
 Others: [gitter.im](https://gitter.im)：
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://badges.gitter.im/guodongxiaren/README.svg)](https://gitter.im/guodongxiaren/README?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/septwong/README](https://badges.gitter.im/septwong/README.svg)](https://gitter.im/septwong/README?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Star History
 
