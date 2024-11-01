@@ -6,15 +6,15 @@
 ![Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/septwong.markdown-syntax)&nbsp;
 ![Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/septwong.markdown-syntax)&nbsp;
 ![Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/septwong.markdown-syntax)&nbsp;
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/Septemberwh/markdown-syntax/main/LICENSE)&nbsp;
-<a href="https://github.com/Septemberwh/markdown-syntax">
-    <img alt="markdown-syntax Repo stars" src="https://img.shields.io/github/stars/Septemberwh/markdown-syntax">
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/septwong/markdown-syntax/main/LICENSE)&nbsp;
+<a href="https://github.com/septwong/markdown-syntax">
+    <img alt="markdown-syntax Repo stars" src="https://img.shields.io/github/stars/septwong/markdown-syntax">
 </a>
 
 > Markdown syntax examples
 
 <p align="center">
-    <a href="https://github.com/Septemberwh/markdown-syntax/blob/main/README_zh-cn.md"> 简体中文</a>
+    <a href="https://github.com/septwong/markdown-syntax/blob/main/README_zh-cn.md"> 简体中文</a>
     ·
     <span> English</span>
 </p>
@@ -23,7 +23,7 @@
 
 A quick reference for viewing Markdown syntax examples.
 
-- Preview [Github Markdown](https://github.com/Septemberwh/markdown-syntax/blob/main/markdown_en.md)
+- Preview [Github Markdown](https://github.com/septwong/markdown-syntax/blob/main/markdown_en.md)
 <!-- - Preview [Local Markdown](./markdown.md) -->
 
 > Recommended Markdown preview plugin: [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)

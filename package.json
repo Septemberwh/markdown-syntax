@@ -68,10 +68,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Septemberwh/markdown-syntax"
+    "url": "https://github.com/septwong/markdown-syntax"
   },
   "bugs": {
-    "url": "https://github.com/Septemberwh/markdown-syntax/issues"
+    "url": "https://github.com/septwong/markdown-syntax/issues"
   },
   "icon": "assets/images/logo.png",
   "license": "MIT",

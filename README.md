@@ -6,9 +6,9 @@
 ![Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/septwong.markdown-syntax)&nbsp;
 ![Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/septwong.markdown-syntax)&nbsp;
 ![Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/septwong.markdown-syntax)&nbsp;
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/Septemberwh/markdown-syntax/main/LICENSE)&nbsp;
-<a href="https://github.com/Septemberwh/markdown-syntax">
-    <img alt="markdown-syntax Repo stars" src="https://img.shields.io/github/stars/Septemberwh/markdown-syntax">
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/septwong/markdown-syntax/main/LICENSE)&nbsp;
+<a href="https://github.com/septwong/markdown-syntax">
+    <img alt="markdown-syntax Repo stars" src="https://img.shields.io/github/stars/septwong/markdown-syntax">
 </a>
 
 > Markdown 语法示例
@@ -16,14 +16,14 @@
 <p align="center">
     <span> 简体中文</span>
     ·
-    <a href="https://github.com/Septemberwh/markdown-syntax/blob/main/README_en.md">English</a>
+    <a href="https://github.com/septwong/markdown-syntax/blob/main/README_en.md">English</a>
 </p>
 
 ## 概述
 
 用于快速查看 Markdown 语法示例。
 
-- 预览 [Github Markdown](https://github.com/Septemberwh/markdown-syntax/blob/main/markdown.md)
+- 预览 [Github Markdown](https://github.com/septwong/markdown-syntax/blob/main/markdown.md)
 <!-- - 预览 [Local Markdown](./markdown.md) -->
 
 > 建议安装 Markdown 预览插件：[Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)

@@ -518,14 +518,14 @@ Draw badges: [shields.io](https://shields.io/)
 https://img.shields.io/badge/{left text}-{right text}-{right color}
 ```
 
-![Author](https://img.shields.io/badge/Author-Septemberwh-blue.svg)
+![Author](https://img.shields.io/badge/Author-septwong-blue.svg)
 [![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/septwong.markdown-syntax?color=brightgreen&label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=septwong.markdown-syntax)
 ![Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/septwong.markdown-syntax)&nbsp;
 ![Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/septwong.markdown-syntax)&nbsp;
 ![Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/septwong.markdown-syntax)&nbsp;
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/Septemberwh/markdown-syntax/main/LICENSE)&nbsp;
-<a href="https://github.com/Septemberwh/markdown-syntax">
-    <img alt="markdown-syntax Repo stars" src="https://img.shields.io/github/stars/Septemberwh/markdown-syntax">
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/septwong/markdown-syntax/main/LICENSE)&nbsp;
+<a href="https://github.com/septwong/markdown-syntax">
+    <img alt="markdown-syntax Repo stars" src="https://img.shields.io/github/stars/septwong/markdown-syntax">
 </a>
 
 Others: [gitter.im](https://gitter.im)：
@@ -537,12 +537,12 @@ Others: [gitter.im](https://gitter.im)：
 star history website: [star-history.com](https://star-history.com/) or [github star-history](https://github.com/star-history/star-history)
 
 ```markdown
-Septemberwh/markdown-syntax -- github account/project name
+septwong/markdown-syntax -- github account/project name
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Septemberwh/markdown-syntax&type=Date)](https://star-history.com/#Septemberwh/markdown-syntax&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=septwong/markdown-syntax&type=Date)](https://star-history.com/#septwong/markdown-syntax&Date)
 ```
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Septemberwh/markdown-syntax&type=Date)](https://star-history.com/#Septemberwh/markdown-syntax&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=septwong/markdown-syntax&type=Date)](https://star-history.com/#septwong/markdown-syntax&Date)
 
 ---
 
