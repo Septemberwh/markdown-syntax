@@ -2,7 +2,7 @@
   "name": "markdown-syntax",
   "displayName": "Markdown Syntax",
   "description": "%description%",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "SeptWong",
   "engines": {
     "vscode": "^1.90.0"
