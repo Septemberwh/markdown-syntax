@@ -7,6 +7,15 @@
   "engines": {
     "vscode": "^1.90.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/septwong/markdown-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/septwong/markdown-syntax/issues"
+  },
+  "icon": "assets/images/logo.png",
+  "license": "MIT",
   "categories": [
     "Other"
   ],
@@ -66,15 +75,6 @@
       }
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/septwong/markdown-syntax"
-  },
-  "bugs": {
-    "url": "https://github.com/septwong/markdown-syntax/issues"
-  },
-  "icon": "assets/images/logo.png",
-  "license": "MIT",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
