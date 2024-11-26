@@ -4,6 +4,11 @@
   "description": "%description%",
   "version": "0.0.8",
   "publisher": "SeptWong",
+  "icon": "assets/images/logo.png",
+  "galleryBanner": {
+    "color": "#1e1f22",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -14,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/septwong/markdown-syntax/issues"
   },
-  "icon": "assets/images/logo.png",
   "license": "MIT",
   "categories": [
     "Other"
