@@ -7,9 +7,9 @@
 ![Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/septwong.markdown-syntax)&nbsp;
 ![Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/septwong.markdown-syntax)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/septwong/markdown-syntax/main/LICENSE)&nbsp;
-<a href="https://github.com/septwong/markdown-syntax">
+<!-- <a href="https://github.com/septwong/markdown-syntax">
     <img alt="markdown-syntax Repo stars" src="https://img.shields.io/github/stars/septwong/markdown-syntax">
-</a>
+</a> -->
 
 > Markdown syntax examples
 
